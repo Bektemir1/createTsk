@@ -9,7 +9,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <input v-model="currentTitle" class="input w-100" >
+          <input v-model="currentTitle" class="input" >
         </div>
         <div class="modal-footer">
           <button @click.prevent="save()"   type="button" class="add-task">Save</button>
@@ -48,5 +48,7 @@ export default {
 </script>
 
 <style scoped>
-
+.input{
+  width: 100%;
+}
 </style>

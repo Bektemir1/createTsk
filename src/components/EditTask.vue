@@ -12,7 +12,7 @@
           <label>Task name</label>
           <input v-model="currentTask.name" class="input" >
           <label>Sub task name</label>
-          <input v-model="subTask.name" class="input w-100">
+          <input v-model="subTask.name" class="">
         </div>
         <div class="modal-footer">
           <button @click="onSubmit" type="button" class="add-task">Save</button>
@@ -62,4 +62,5 @@ export default {
 .input{
   width: 100% !important;
 }
+
 </style>
