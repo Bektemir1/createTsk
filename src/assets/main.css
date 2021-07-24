@@ -1,0 +1,29 @@
+.modal-content{
+    border:none;
+    background: #FFFFFF;
+    border-radius: 0;
+    padding:15px;
+}
+.modal-header, .modal-footer{
+    border: none;
+}
+.input{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height:40px;
+    padding:0 10px;
+    margin-right: 10px;
+    outline:none;
+    margin-bottom: 30px;
+}
+.add-task{
+    background: #616CF5;
+    border-radius: 5px;
+    width: calc(30% - 10px);
+    color:#fff;
+    border:none;
+    height: 40px;
+    outline:none;
+}
